@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const fetchOpenAIData = async (inputValue) => {
-    const apiKey = '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';
+    const apiKey = 'OPENAI_API_KEY';
     const prompt = inputValue;
     let data = {
         'model': 'text-davinci-003',
